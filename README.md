@@ -1,4 +1,4 @@
-# CODSOFT AI Internship - Task 1
+<img width="1831" height="1013" alt="output" src="https://github.com/user-attachments/assets/d0b8d8fd-cd3c-4e2c-b3fe-2a76d160d88a" /># CODSOFT AI Internship - Task 1
 
 ## Rule-Based Chatbot
 
@@ -61,4 +61,5 @@ The chatbot uses predefined rules and if-else statements to respond to user inpu
 
 ### Chatbot Output
 
-![Chatbot Output](output.png)
+![Chatbot Output](![Uploading output.png…])
+)
