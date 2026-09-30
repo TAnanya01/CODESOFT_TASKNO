@@ -63,3 +63,43 @@ The chatbot uses predefined rules and if-else statements to respond to user inpu
 
 ![Chatbot Output](![Uploading output.png…])
 )
+# Task 2 - Tic-Tac-Toe AI
+
+## 📌 Project Description
+
+This project is a Python-based Tic-Tac-Toe game in which a human player plays against an AI opponent.
+
+The AI uses the **Minimax algorithm** to analyze possible moves and select an appropriate move during the game.
+
+## 🎯 Objective
+
+The main objective of this project is to understand:
+
+- Basic game development using Python
+- AI decision-making
+- Minimax algorithm
+- Game-state evaluation
+- Logical problem solving
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **Minimax Algorithm**
+- **VS Code**
+
+## 🎮 How the Game Works
+
+- The player uses **X**.
+- The AI uses **O**.
+- The player selects a position from **1 to 9**.
+- The AI analyzes the available moves using Minimax.
+- The game continues until a player wins or the game ends in a draw.
+
+### Board Positions
+
+```text
+1 | 2 | 3
+--+---+--
+4 | 5 | 6
+--+---+--
+7 | 8 | 9
