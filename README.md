@@ -103,3 +103,110 @@ The main objective of this project is to understand:
 4 | 5 | 6
 --+---+--
 7 | 8 | 9
+# Movie Recommendation System
+
+##About the Project
+The Movie Recommendation System is a beginner-friendly Python project that recommends movies based on genre similarity. Users can select a movie from the available database and receive recommendations for other movies with similar genres.
+
+This project demonstrates the basic concepts of Python programming, lists, dictionaries, functions, loops, and sorting.
+
+##  Features
+- Display all available movies.
+- Search for a movie by its title.
+- Recommend up to five similar movies.
+- Display movie genres and ratings.
+- Handle invalid menu choices and unknown movie titles.
+- Simple command-line interface.
+
+## Technologies Used
+- Python 3
+- Built-in Python libraries
+- VS Code
+- Git and GitHub
+
+## 📂 Project Structure
+```text
+Movie-Recommendation-System/
+├── movie_recommender.py
+├── README.md
+└── requirements.txt
+```
+
+## How to Run the Project
+
+### Step 1: Install Python
+Install Python 3 from https://www.python.org/downloads/
+
+### Step 2: Download or Clone the Repository
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
+
+### Step 3: Open the Project
+Open the project folder in Visual Studio Code.
+
+### Step 4: Run the Program
+Open the terminal and execute:
+
+```bash
+python movie_recommender.py
+```
+
+On some Windows installations, you may need to use:
+
+```bash
+py movie_recommender.py
+```
+
+## 💻 Sample Output
+
+```text
+========================================
+   MOVIE RECOMMENDATION SYSTEM
+========================================
+
+1. View all movies
+2. Get movie recommendations
+3. Exit
+
+Enter your choice (1-3): 2
+Enter a movie name: Inception
+
+Movies similar to 'Inception':
+- Avengers: Endgame | Genre: Action, Sci-Fi | Rating: 8.4
+- Iron Man | Genre: Action, Sci-Fi | Rating: 7.9
+- Interstellar | Genre: Sci-Fi, Drama | Rating: 8.7
+```
+
+The actual recommendation order depends on the number of matching genres and the movie ratings.
+
+##  How It Works
+1. The system stores movie titles, genres, and ratings in a list of dictionaries.
+2. The user enters a movie title.
+3. The program searches for the selected movie.
+4. It compares the selected movie's genres with the genres of other movies.
+5. Movies sharing genres are ranked by genre matches and ratings.
+6. The system displays up to five recommendations.
+
+##  Concepts Used
+- Lists and dictionaries
+- Functions
+- Loops and conditional statements
+- String handling
+- Sets and set intersection
+- Sorting with a custom key
+- Basic input validation
+
+##  Future Improvements
+- Add a graphical user interface.
+- Use a larger movie dataset.
+- Include user ratings and preferences.
+- Integrate a movie database API.
+- Implement content-based filtering with more detailed movie features.
+
+##  Learning Outcome
+This project helps beginners understand how a simple recommendation system works and how Python data structures can be used to compare items and generate useful suggestions.
+
+
